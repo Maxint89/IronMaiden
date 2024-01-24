@@ -1,0 +1,16 @@
+body {
+    background-color: $colorPrincipal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+.recitales {
+    background-image: url(../img/imageconcert.jpg);
+    background-size: 600px;
+    background-repeat: repeat;
+}

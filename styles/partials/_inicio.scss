@@ -1,0 +1,42 @@
+body {
+    background-color: $colorPrincipal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+
+.inicio {
+    background-image: url(../img/imageindex.jpg);
+}
+
+.cuerpo-title {
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: .5rem 0;
+}
+
+.videoMaiden {
+    text-align: center;
+    opacity: 75%;
+}
+
+.fotosBanda {
+    text-align: center;
+
+    .foto1,
+    .foto2,
+    .foto3 {
+        width: 400px;
+        height: 200px;
+        margin: .5rem;
+        padding: .5rem;
+    }
+}
+

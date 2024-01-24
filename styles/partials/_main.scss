@@ -1,0 +1,146 @@
+.cuerpo-title,
+.historiaBanda,
+.integrantes {
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: .5rem 0;
+}
+
+
+.titulo-concierto {
+    font-size: 24px;
+    color: $colorSecundario;
+}
+
+.miembros {
+    list-style-type: none;
+}
+
+.cuerpo-albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "album-1    album-2    album-3"
+        "album-4    album-5    album-6"
+        "album-7    album-8    album-9"
+        "album-10   album-11   album-12"
+        "album-13   album-14   album-15"
+        "album-16   album-17   .";
+
+    .album-1 {
+        grid-area: album-1;
+    }
+
+    .album-2 {
+        grid-area: album-2;
+    }
+
+    .album-3 {
+        grid-area: album-3;
+    }
+
+    .album-4 {
+        grid-area: album-4;
+    }
+
+    .album-5 {
+        grid-area: album-5;
+    }
+
+    .album-6 {
+        grid-area: album-6;
+    }
+
+    .album-7 {
+        grid-area: album-7;
+    }
+
+    .album-8 {
+        grid-area: album-8;
+    }
+
+    .album-9 {
+        grid-area: album-9;
+    }
+
+    .album-10 {
+        grid-area: album-10;
+    }
+
+    .album-11 {
+        grid-area: album-11;
+    }
+
+    .album-12 {
+        grid-area: album-12;
+    }
+
+    .album-13 {
+        grid-area: album-13;
+    }
+
+    .album-14 {
+        grid-area: album-14;
+    }
+
+    .album-15 {
+        grid-area: album-15;
+    }
+
+    .album-16 {
+        grid-area: album-16;
+    }
+
+    .album-17 {
+        grid-area: album-17;
+    }
+
+    .caratula {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+
+        .caratula-img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    }
+}
+
+.tour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .titulo-concierto {
+        background-color: $colorPrincipal;
+    }
+
+    table {
+        background-color: $colorPrincipal;
+        color: $colorSecundario;
+        border-collapse: collapse;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+
+        th,
+        td {
+            border: 1px solid $colorTablaUno;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: $colorTablaDos;
+        }
+
+    }
+
+}
+

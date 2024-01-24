@@ -1,0 +1,57 @@
+body {
+    background-color: $colorPrincipal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+.historia {
+    background-image: url(../img/imageband.jpg);
+}
+
+.historiaBanda{
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: .5rem 0;
+    font-size: 24px;
+    
+    .historiaBanda-title {
+        font-size: 40px;
+        margin-top: .5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .historiaBanda-text{
+        font-size: 20px;
+    }
+}
+
+.integrantes {
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: .5rem 0;
+
+    .integrantes-title {
+        font-size: 30px;
+        color: $colorSecundario;
+        margin-top: 1rem;
+    }
+
+    .integrantes-title-sec{
+        font-size: 20px;
+        color: $colorSecundario;
+        margin-top: .7rem;
+    }
+
+    .integrantes-band{
+        list-style-type: none;
+    }
+}

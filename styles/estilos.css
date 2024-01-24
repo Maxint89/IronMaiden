@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,600;0,800;1,100&family=Roboto:ital,wght@0,400;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.encabezado {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  font-size: 30px;
+}
+
+.cuerpo-title,
+.historiaBanda,
+.integrantes {
+  color: #cb3d3d;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.titulo-concierto {
+  font-size: 24px;
+  color: #cb3d3d;
+}
+
+.miembros {
+  list-style-type: none;
+}
+
+.cuerpo-albums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "album-1    album-2    album-3" "album-4    album-5    album-6" "album-7    album-8    album-9" "album-10   album-11   album-12" "album-13   album-14   album-15" "album-16   album-17   .";
+}
+.cuerpo-albums .album-1 {
+  grid-area: album-1;
+}
+.cuerpo-albums .album-2 {
+  grid-area: album-2;
+}
+.cuerpo-albums .album-3 {
+  grid-area: album-3;
+}
+.cuerpo-albums .album-4 {
+  grid-area: album-4;
+}
+.cuerpo-albums .album-5 {
+  grid-area: album-5;
+}
+.cuerpo-albums .album-6 {
+  grid-area: album-6;
+}
+.cuerpo-albums .album-7 {
+  grid-area: album-7;
+}
+.cuerpo-albums .album-8 {
+  grid-area: album-8;
+}
+.cuerpo-albums .album-9 {
+  grid-area: album-9;
+}
+.cuerpo-albums .album-10 {
+  grid-area: album-10;
+}
+.cuerpo-albums .album-11 {
+  grid-area: album-11;
+}
+.cuerpo-albums .album-12 {
+  grid-area: album-12;
+}
+.cuerpo-albums .album-13 {
+  grid-area: album-13;
+}
+.cuerpo-albums .album-14 {
+  grid-area: album-14;
+}
+.cuerpo-albums .album-15 {
+  grid-area: album-15;
+}
+.cuerpo-albums .album-16 {
+  grid-area: album-16;
+}
+.cuerpo-albums .album-17 {
+  grid-area: album-17;
+}
+.cuerpo-albums .caratula {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.cuerpo-albums .caratula .caratula-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.tour {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.tour .titulo-concierto {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+}
+.tour table {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  color: #cb3d3d;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+.tour table th,
+.tour table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.tour table th {
+  background-color: #f2f2f2;
+}
+
+body {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body h1 {
+  font-weight: 800;
+}
+
+.inicio {
+  background-image: url(../img/imageindex.jpg);
+}
+
+.cuerpo-title {
+  color: #cb3d3d;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.videoMaiden {
+  text-align: center;
+  opacity: 75%;
+}
+
+.fotosBanda {
+  text-align: center;
+}
+.fotosBanda .foto1,
+.fotosBanda .foto2,
+.fotosBanda .foto3 {
+  width: 400px;
+  height: 200px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+body {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body h1 {
+  font-weight: 800;
+}
+
+.historia {
+  background-image: url(../img/imageband.jpg);
+}
+
+.historiaBanda {
+  color: #cb3d3d;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+  font-size: 24px;
+}
+.historiaBanda .historiaBanda-title {
+  font-size: 40px;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.historiaBanda .historiaBanda-text {
+  font-size: 20px;
+}
+
+.integrantes {
+  color: #cb3d3d;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+}
+.integrantes .integrantes-title {
+  font-size: 30px;
+  color: #cb3d3d;
+  margin-top: 1rem;
+}
+.integrantes .integrantes-title-sec {
+  font-size: 20px;
+  color: #cb3d3d;
+  margin-top: 0.7rem;
+}
+.integrantes .integrantes-band {
+  list-style-type: none;
+}
+
+body {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body h1 {
+  font-weight: 800;
+}
+
+.discos {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+}
+
+body {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body h1 {
+  font-weight: 800;
+}
+
+.recitales {
+  background-image: url(../img/imageconcert.jpg);
+  background-size: 600px;
+  background-repeat: repeat;
+}
+
+body {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body h1 {
+  font-weight: 800;
+}
+
+.contacto {
+  background-image: url(../img/imagecontact.jpg);
+}
+
+.formulario {
+  margin-inline: 1rem;
+  padding-inline: 1.5rem;
+  align-items: center;
+}
+
+footer {
+  background-color: rgba(0, 0, 15, 0.7960784314);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+  display: block;
+}
+footer .titlefoot {
+  color: #cb3d3d;
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+footer .redes-sociales a {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer .redes-sociales a #facebook-icon:hover {
+  color: #1877f2;
+  /* Color de Facebook en hover */
+}
+footer .redes-sociales a #instagram-icon:hover {
+  color: #e4405f;
+  /* Color de Instagram en hover */
+}
+footer .redes-sociales a #youtube-icon:hover {
+  color: #ff0000;
+  /* Color de YouTube en hover */
+}
+footer .redes-sociales a #spotify-icon:hover {
+  color: #1db954;
+  /* Color de Spotify en hover */
+}
+
+@media (max-width: 650px) {
+  iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .foto1,
+  .foto2,
+  .foto3 {
+    width: 300px;
+    height: 150px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .escala:hover {
+    transform: scale(1.3);
+  }
+  .cuerpo-albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "album-1    album-2" "album-3    album-4" "album-5    album-6" "album-7    album-8" "album-9    album-10" "album-11   album-12" "album-13   album-14" "album-15   album-16" "album-17   .";
+  }
+}
+@media (max-width: 505px) {
+  .cuerpo-title {
+    padding: 0.5rem 1rem;
+    font-size: 24px;
+  }
+}
+@media (max-width: 434px) {
+  .cuerpo-albums {
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-around;
+    grid-template-areas: "album-1" "album-2" "album-3" "album-4" "album-5" "album-6" "album-7" "album-8" "album-9" "album-10" "album-11" "album-12" "album-13" "album-14" "album-15" "album-16" "album-17";
+  }
+  .redes-sociales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  .cuerpo-albums .caratula .caratula-img {
+    border-radius: 50%;
+  }
+}/*# sourceMappingURL=estilos.css.map */
