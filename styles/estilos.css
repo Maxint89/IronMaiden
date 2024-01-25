@@ -301,12 +301,12 @@ footer {
 footer .titlefoot {
   color: #cb3d3d;
   font-size: 25px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 footer .redes-sociales a {
   color: #ffffff;
   font-size: 30px;
-  margin: 1rem 2rem;
+  margin: 0.5rem 1rem;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -360,13 +360,6 @@ footer .redes-sociales #spotify-icon:hover {
     grid-template-columns: 70%;
     justify-content: space-around;
     grid-template-areas: "album-1" "album-2" "album-3" "album-4" "album-5" "album-6" "album-7" "album-8" "album-9" "album-10" "album-11" "album-12" "album-13" "album-14" "album-15" "album-16" "album-17";
-  }
-  .redes-sociales {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
   }
   .cuerpo-albums .caratula .caratula-img {
     border-radius: 50%;
