@@ -21,108 +21,8 @@
   margin: 0.5rem 0;
 }
 
-.titulo-concierto {
-  font-size: 24px;
-  color: #cb3d3d;
-}
-
 .miembros {
   list-style-type: none;
-}
-
-.cuerpo-albums {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "album-1    album-2    album-3" "album-4    album-5    album-6" "album-7    album-8    album-9" "album-10   album-11   album-12" "album-13   album-14   album-15" "album-16   album-17   .";
-}
-.cuerpo-albums .album-1 {
-  grid-area: album-1;
-}
-.cuerpo-albums .album-2 {
-  grid-area: album-2;
-}
-.cuerpo-albums .album-3 {
-  grid-area: album-3;
-}
-.cuerpo-albums .album-4 {
-  grid-area: album-4;
-}
-.cuerpo-albums .album-5 {
-  grid-area: album-5;
-}
-.cuerpo-albums .album-6 {
-  grid-area: album-6;
-}
-.cuerpo-albums .album-7 {
-  grid-area: album-7;
-}
-.cuerpo-albums .album-8 {
-  grid-area: album-8;
-}
-.cuerpo-albums .album-9 {
-  grid-area: album-9;
-}
-.cuerpo-albums .album-10 {
-  grid-area: album-10;
-}
-.cuerpo-albums .album-11 {
-  grid-area: album-11;
-}
-.cuerpo-albums .album-12 {
-  grid-area: album-12;
-}
-.cuerpo-albums .album-13 {
-  grid-area: album-13;
-}
-.cuerpo-albums .album-14 {
-  grid-area: album-14;
-}
-.cuerpo-albums .album-15 {
-  grid-area: album-15;
-}
-.cuerpo-albums .album-16 {
-  grid-area: album-16;
-}
-.cuerpo-albums .album-17 {
-  grid-area: album-17;
-}
-.cuerpo-albums .caratula {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 20px;
-}
-.cuerpo-albums .caratula .caratula-img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-.tour {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.tour .titulo-concierto {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-}
-.tour table {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  color: #cb3d3d;
-  border-collapse: collapse;
-  margin-top: 20px;
-  text-align: center;
-  align-items: center;
-}
-.tour table th,
-.tour table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-.tour table th {
-  background-color: #f2f2f2;
 }
 
 body {
@@ -230,6 +130,77 @@ body h1 {
   background-color: rgba(0, 0, 15, 0.7882352941);
 }
 
+.cuerpo-albums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "album-1    album-2    album-3" "album-4    album-5    album-6" "album-7    album-8    album-9" "album-10   album-11   album-12" "album-13   album-14   album-15" "album-16   album-17   .";
+}
+.cuerpo-albums .album-1 {
+  grid-area: album-1;
+}
+.cuerpo-albums .album-2 {
+  grid-area: album-2;
+}
+.cuerpo-albums .album-3 {
+  grid-area: album-3;
+}
+.cuerpo-albums .album-4 {
+  grid-area: album-4;
+}
+.cuerpo-albums .album-5 {
+  grid-area: album-5;
+}
+.cuerpo-albums .album-6 {
+  grid-area: album-6;
+}
+.cuerpo-albums .album-7 {
+  grid-area: album-7;
+}
+.cuerpo-albums .album-8 {
+  grid-area: album-8;
+}
+.cuerpo-albums .album-9 {
+  grid-area: album-9;
+}
+.cuerpo-albums .album-10 {
+  grid-area: album-10;
+}
+.cuerpo-albums .album-11 {
+  grid-area: album-11;
+}
+.cuerpo-albums .album-12 {
+  grid-area: album-12;
+}
+.cuerpo-albums .album-13 {
+  grid-area: album-13;
+}
+.cuerpo-albums .album-14 {
+  grid-area: album-14;
+}
+.cuerpo-albums .album-15 {
+  grid-area: album-15;
+}
+.cuerpo-albums .album-16 {
+  grid-area: album-16;
+}
+.cuerpo-albums .album-17 {
+  grid-area: album-17;
+}
+.cuerpo-albums .caratula {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.cuerpo-albums .caratula .caratula-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.cuerpo-albums .caratula:hover {
+  transform: scale(1.5);
+}
+
 body {
   background-color: rgba(0, 0, 15, 0.7882352941);
   background-size: cover;
@@ -244,6 +215,35 @@ body h1 {
   background-image: url(../img/imageconcert.jpg);
   background-size: 600px;
   background-repeat: repeat;
+}
+
+.tour {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.tour .tour-title {
+  font-size: 24px;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  color: #cb3d3d;
+}
+.tour table {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  color: #cb3d3d;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+.tour table th,
+.tour table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.tour table th {
+  background-color: #f2f2f2;
 }
 
 body {
