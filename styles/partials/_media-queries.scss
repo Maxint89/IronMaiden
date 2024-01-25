@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 990px) {
   iframe {
     width: 400px;
     height: 200px;
@@ -21,13 +21,13 @@
     grid-template-areas: "album-1    album-2" "album-3    album-4" "album-5    album-6" "album-7    album-8" "album-9    album-10" "album-11   album-12" "album-13   album-14" "album-15   album-16" "album-17   .";
   }
 }
-@media (max-width: 505px) {
+
+@media (max-width: 768px) {
   .cuerpo-title {
     padding: 0.5rem 1rem;
     font-size: 24px;
   }
-}
-@media (max-width: 434px) {
+  
   .cuerpo-albums {
     display: grid;
     grid-template-columns: 70%;

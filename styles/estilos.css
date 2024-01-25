@@ -11,20 +11,6 @@
   font-size: 30px;
 }
 
-.cuerpo-title,
-.historiaBanda,
-.integrantes {
-  color: #cb3d3d;
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  text-align: center;
-  padding: 1rem 1.5rem;
-  margin: 0.5rem 0;
-}
-
-.miembros {
-  list-style-type: none;
-}
-
 body {
   background-color: rgba(0, 0, 15, 0.7882352941);
   background-size: cover;
@@ -47,6 +33,20 @@ body h1 {
   margin: 0.5rem 0;
 }
 
+.focus-in-expand {
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 .videoMaiden {
   text-align: center;
   opacity: 75%;
@@ -95,6 +95,23 @@ body h1 {
   font-size: 20px;
 }
 
+.tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 .integrantes {
   color: #cb3d3d;
   background-color: rgba(0, 0, 15, 0.7882352941);
@@ -197,8 +214,15 @@ body h1 {
   max-width: 100%;
   border-radius: 8px;
 }
-.cuerpo-albums .caratula:hover {
+.cuerpo-albums .caratula .caratula-img:hover {
   transform: scale(1.5);
+}
+.cuerpo-albums .caratula .caratula-title {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  color: #cb3d3d;
+  font-size: 3vh;
+  text-align: center;
+  padding: 1rem;
 }
 
 body {
@@ -286,24 +310,24 @@ footer .redes-sociales a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-footer .redes-sociales a #facebook-icon:hover {
+footer .redes-sociales #facebook-icon:hover {
   color: #1877f2;
   /* Color de Facebook en hover */
 }
-footer .redes-sociales a #instagram-icon:hover {
+footer .redes-sociales #instagram-icon:hover {
   color: #e4405f;
   /* Color de Instagram en hover */
 }
-footer .redes-sociales a #youtube-icon:hover {
+footer .redes-sociales #youtube-icon:hover {
   color: #ff0000;
   /* Color de YouTube en hover */
 }
-footer .redes-sociales a #spotify-icon:hover {
+footer .redes-sociales #spotify-icon:hover {
   color: #1db954;
   /* Color de Spotify en hover */
 }
 
-@media (max-width: 650px) {
+@media (max-width: 990px) {
   iframe {
     width: 400px;
     height: 200px;
@@ -326,13 +350,11 @@ footer .redes-sociales a #spotify-icon:hover {
     grid-template-areas: "album-1    album-2" "album-3    album-4" "album-5    album-6" "album-7    album-8" "album-9    album-10" "album-11   album-12" "album-13   album-14" "album-15   album-16" "album-17   .";
   }
 }
-@media (max-width: 505px) {
+@media (max-width: 768px) {
   .cuerpo-title {
     padding: 0.5rem 1rem;
     font-size: 24px;
   }
-}
-@media (max-width: 434px) {
   .cuerpo-albums {
     display: grid;
     grid-template-columns: 70%;

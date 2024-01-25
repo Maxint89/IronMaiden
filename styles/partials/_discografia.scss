@@ -102,10 +102,18 @@ body {
         .caratula-img {
             max-width: 100%;
             border-radius: 8px;
-        }
 
-        &:hover{
-            transform: scale(1.5);
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+     
+        .caratula-title{
+            background-color: $colorPrincipal;
+            color: $colorSecundario;
+            font-size: 3vh;
+            text-align: center;
+            padding: 1rem;
         }
     }
 }
