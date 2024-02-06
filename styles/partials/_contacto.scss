@@ -1,21 +1,20 @@
-body {
-    background-color: $colorPrincipal;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    h1 {
-        font-weight: 800;
-    }
-}
-
 .contacto {
-    background-image: url(../img/imagecontact.jpg);
+    background-image: url(../img/imagediscography.jpg);
+    background-size: 100px;
+    background-repeat: repeat;
 }
+
+
 
 .formulario {
     margin-inline: 1rem;
     padding-inline: 1.5rem;
     align-items: center;
+
+    .contacto-title{
+        color: $colorSecundario;
+        background-color: $colorPrincipal;
+        font-size: 1.3rem;
+    }
 
 }

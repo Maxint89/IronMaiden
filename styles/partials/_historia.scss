@@ -1,100 +1,97 @@
-body {
-    background-color: $colorPrincipal;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    h1 {
-        font-weight: 800;
-    }
-}
-
 .historia {
     background-image: url(../img/imageband.jpg);
 }
 
-.historiaBanda {
-    color: $colorSecundario;
-    background-color: $colorPrincipal;
-    text-align: center;
-    padding: 1rem 1.5rem;
-    margin: .5rem 0;
-    font-size: 24px;
+.historia-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "historiaBanda integrantes";
 
-    .historiaBanda-title {
-        font-size: 40px;
-        margin-top: .5rem;
-        margin-bottom: 2.5rem;
-    }    
-
-    .historiaBanda-text {
-        font-size: 20px;
-    }
-}
-
-.tracking-in-contract-bck {
-    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-@-webkit-keyframes tracking-in-contract-bck {
-    0% {
-        letter-spacing: 1em;
-        -webkit-transform: translateZ(400px);
-        transform: translateZ(400px);
-        opacity: 0;
-    }
-
-    40% {
-        opacity: 0.6;
-    }
-
-    100% {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        opacity: 1;
-    }
-}
-
-@keyframes tracking-in-contract-bck {
-    0% {
-        letter-spacing: 1em;
-        -webkit-transform: translateZ(400px);
-        transform: translateZ(400px);
-        opacity: 0;
-    }
-
-    40% {
-        opacity: 0.6;
-    }
-
-    100% {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        opacity: 1;
-    }
-}
-
-.integrantes {
-    color: $colorSecundario;
-    background-color: $colorPrincipal;
-    text-align: center;
-    padding: 1rem 1.5rem;
-    margin: .5rem 0;
-
-    .integrantes-title {
-        font-size: 30px;
+    .historiaBanda {
         color: $colorSecundario;
-        margin-top: 1rem;
+        background-color: $colorPrincipal;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        margin: .5rem 0;
+        font-size: 24px;
+    
+        .historiaBanda-title {
+            font-size: 3rem;
+            margin-top: .5rem;
+            margin-bottom: 2.5rem;
+        }    
+    
+        .historiaBanda-text {
+            font-size: 1.5rem;
+        }
     }
-
-    .integrantes-title-sec {
-        font-size: 20px;
+    
+    .tracking-in-contract-bck {
+        -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    
+    @-webkit-keyframes tracking-in-contract-bck {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+            opacity: 0;
+        }
+    
+        40% {
+            opacity: 0.6;
+        }
+    
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes tracking-in-contract-bck {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+            opacity: 0;
+        }
+    
+        40% {
+            opacity: 0.6;
+        }
+    
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+    
+    .integrantes {
         color: $colorSecundario;
-        margin-top: .7rem;
-    }
-
-    .integrantes-band {
-        list-style-type: none;
+        background-color: $colorPrincipal;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        margin: .5rem 0;
+    
+        .integrantes-title {
+            font-size: 3rem;
+            color: $colorSecundario;
+            margin-top: 1rem;
+        }
+    
+        .integrantes-title-sec {
+            font-size: 2rem;
+            color: $colorSecundario;
+            margin-top: .7rem;
+        }
+    
+        .integrantes-band {
+            list-style-type: none;
+            font-size: 1rem;
+        }
     }
 }
+

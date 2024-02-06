@@ -6,11 +6,6 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.encabezado {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  font-size: 30px;
-}
-
 body {
   background-color: rgba(0, 0, 15, 0.7882352941);
   background-size: cover;
@@ -19,6 +14,11 @@ body {
 }
 body h1 {
   font-weight: 800;
+}
+
+.encabezado {
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  font-size: 30px;
 }
 
 .inicio {
@@ -59,26 +59,20 @@ body h1 {
 .fotosBanda .foto2,
 .fotosBanda .foto3 {
   width: 400px;
-  height: 200px;
   margin: 0.5rem;
   padding: 0.5rem;
-}
-
-body {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-body h1 {
-  font-weight: 800;
 }
 
 .historia {
   background-image: url(../img/imageband.jpg);
 }
 
-.historiaBanda {
+.historia-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "historiaBanda integrantes";
+}
+.historia-page .historiaBanda {
   color: #cb3d3d;
   background-color: rgba(0, 0, 15, 0.7882352941);
   text-align: center;
@@ -86,16 +80,15 @@ body h1 {
   margin: 0.5rem 0;
   font-size: 24px;
 }
-.historiaBanda .historiaBanda-title {
-  font-size: 40px;
+.historia-page .historiaBanda .historiaBanda-title {
+  font-size: 3rem;
   margin-top: 0.5rem;
   margin-bottom: 2.5rem;
 }
-.historiaBanda .historiaBanda-text {
-  font-size: 20px;
+.historia-page .historiaBanda .historiaBanda-text {
+  font-size: 1.5rem;
 }
-
-.tracking-in-contract-bck {
+.historia-page .tracking-in-contract-bck {
   animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 @keyframes tracking-in-contract-bck {
@@ -112,35 +105,26 @@ body h1 {
     opacity: 1;
   }
 }
-.integrantes {
+.historia-page .integrantes {
   color: #cb3d3d;
   background-color: rgba(0, 0, 15, 0.7882352941);
   text-align: center;
   padding: 1rem 1.5rem;
   margin: 0.5rem 0;
 }
-.integrantes .integrantes-title {
-  font-size: 30px;
+.historia-page .integrantes .integrantes-title {
+  font-size: 3rem;
   color: #cb3d3d;
   margin-top: 1rem;
 }
-.integrantes .integrantes-title-sec {
-  font-size: 20px;
+.historia-page .integrantes .integrantes-title-sec {
+  font-size: 2rem;
   color: #cb3d3d;
   margin-top: 0.7rem;
 }
-.integrantes .integrantes-band {
+.historia-page .integrantes .integrantes-band {
   list-style-type: none;
-}
-
-body {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-body h1 {
-  font-weight: 800;
+  font-size: 1rem;
 }
 
 .discos {
@@ -213,6 +197,7 @@ body h1 {
 .cuerpo-albums .caratula .caratula-img {
   max-width: 100%;
   border-radius: 8px;
+  transition: 0.5s;
 }
 .cuerpo-albums .caratula .caratula-img:hover {
   transform: scale(1.5);
@@ -270,24 +255,21 @@ body h1 {
   background-color: #f2f2f2;
 }
 
-body {
-  background-color: rgba(0, 0, 15, 0.7882352941);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-body h1 {
-  font-weight: 800;
-}
-
 .contacto {
-  background-image: url(../img/imagecontact.jpg);
+  background-image: url(../img/imagediscography.jpg);
+  background-size: 100px;
+  background-repeat: repeat;
 }
 
 .formulario {
   margin-inline: 1rem;
   padding-inline: 1.5rem;
   align-items: center;
+}
+.formulario .contacto-title {
+  color: #cb3d3d;
+  background-color: rgba(0, 0, 15, 0.7882352941);
+  font-size: 1.3rem;
 }
 
 footer {
@@ -360,8 +342,5 @@ footer .redes-sociales #spotify-icon:hover {
     grid-template-columns: 70%;
     justify-content: space-around;
     grid-template-areas: "album-1" "album-2" "album-3" "album-4" "album-5" "album-6" "album-7" "album-8" "album-9" "album-10" "album-11" "album-12" "album-13" "album-14" "album-15" "album-16" "album-17";
-  }
-  .cuerpo-albums .caratula .caratula-img {
-    border-radius: 50%;
   }
 }/*# sourceMappingURL=estilos.css.map */
