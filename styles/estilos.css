@@ -292,21 +292,17 @@ footer .redes-sociales a {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-footer .redes-sociales #facebook-icon:hover {
-  color: #1877f2;
-  /* Color de Facebook en hover */
+footer .redes-sociales a:hover {
+  color: #1877f2; /* Color de Facebook en hover */
 }
-footer .redes-sociales #instagram-icon:hover {
-  color: #e4405f;
-  /* Color de Instagram en hover */
+footer .redes-sociales a.fab.fa-instagram:hover {
+  color: #e4405f; /* Color de Instagram en hover */
 }
-footer .redes-sociales #youtube-icon:hover {
-  color: #ff0000;
-  /* Color de YouTube en hover */
+footer .redes-sociales a.fab.fa-youtube:hover {
+  color: #ff0000; /* Color de YouTube en hover */
 }
-footer .redes-sociales #spotify-icon:hover {
-  color: #1db954;
-  /* Color de Spotify en hover */
+footer .redes-sociales a.fab.fa-spotify:hover {
+  color: #1db954; /* Color de Spotify en hover */
 }
 
 @media (max-width: 990px) {

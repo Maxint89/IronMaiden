@@ -19,27 +19,22 @@ footer {
             margin: .5rem 1rem;
             text-decoration: none;
             transition: color 0.3s ease;
-        }
 
-        #facebook-icon:hover {
-            color: $colorFacebook;
-            /* Color de Facebook en hover */
-        }
+            &:hover {
+                color: $colorFacebook; /* Color de Facebook en hover */
+            }
 
-        #instagram-icon:hover {
-            color: $colorInstagram;
-            /* Color de Instagram en hover */
-        }
+            &.fab.fa-instagram:hover {
+                color: $colorInstagram; /* Color de Instagram en hover */
+            }
 
-        #youtube-icon:hover {
-            color: $colorYoutube;
-            /* Color de YouTube en hover */
-        }
+            &.fab.fa-youtube:hover {
+                color: $colorYoutube; /* Color de YouTube en hover */
+            }
 
-        #spotify-icon:hover {
-            color: $colorSpotify;
-            /* Color de Spotify en hover */
+            &.fab.fa-spotify:hover {
+                color: $colorSpotify; /* Color de Spotify en hover */
+            }
         }
     }
-
 }
