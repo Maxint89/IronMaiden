@@ -305,6 +305,12 @@ footer .redes-sociales a.fab.fa-spotify:hover {
   color: #1db954; /* Color de Spotify en hover */
 }
 
+@media (max-width: 1000px) {
+  .historia-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 990px) {
   iframe {
     width: 400px;
